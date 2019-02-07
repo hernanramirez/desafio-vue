@@ -1,0 +1,10 @@
+[run]
+branch = True
+omit = *migrations*,
+       *urls*,
+       *test*,
+       *admin*,
+       ./manage.py,
+       ./desafio-vue/config/*,
+       ./desafio-vue/wsgi.py,
+       *__init__*
